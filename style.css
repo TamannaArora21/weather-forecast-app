@@ -1,4 +1,5 @@
 /* Custom styling for Weather Forecast Application */
+/* Base styling and layout for weather application */
 
 * {
   margin: 0;
@@ -129,4 +130,5 @@ body.clear {
 body.clouds {
   background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
+
 
