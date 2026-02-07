@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecast App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body id="body">
+
+  <!-- <div class="app"> -->
+    <div class="app max-w-4xl mx-auto p-6 rounded-2xl shadow-xl">
+
+    
+    <h1>🌦 Weather Forecast</h1>
+
+    <!-- Search -->
+      <div class="search flex flex-wrap gap-3 justify-center">
+
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="searchBtn">Search</button>
+      <button id="locationBtn">Use My Location</button>
+    </div>
+
+    <!-- Recent Cities -->
+    <select id="recentCities" class="hidden">
+      <option value="">Recently searched cities</option>
+    </select>
+
+    <!-- Error -->
+    <p id="errorMsg" class="error hidden"></p>
+
+    <!-- Alert -->
+    <div id="alertBox" class="alert hidden"></div>
+
+    <!-- Current Weather -->
+    <div id="currentWeather" class="current hidden">
+      <h2 id="cityName"></h2>
+      <p id="condition"></p>
+
+      <div class="temp">
+        <span id="temperature"></span>
+        <button id="toggleUnit">°F</button>
+      </div>
+
+      <div class="extra">
+        <p>💧 <span id="humidity"></span>%</p>
+        <p>💨 <span id="wind"></span> km/h</p>
+      </div>
+    </div>
+
+    <!-- Forecast -->
+    
+    <div id="forecast" class="forecast grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
