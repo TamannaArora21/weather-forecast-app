@@ -111,6 +111,7 @@ select {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
 }
+/* Weather card and button styling */
 
 .card {
   background: rgba(255,255,255,0.3);
@@ -130,5 +131,6 @@ body.clear {
 body.clouds {
   background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
+
 
 
