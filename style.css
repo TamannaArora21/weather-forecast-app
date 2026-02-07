@@ -131,6 +131,18 @@ body.clear {
 body.clouds {
   background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  .card {
+    padding: 8px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
 
 
 
