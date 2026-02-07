@@ -1,4 +1,5 @@
 // API key for OpenWeatherMap
+// OpenWeatherMap API configuration and setup
 
 const API_KEY = "0ffbba88c429e73c2b0b7df517398d3c";
 
@@ -156,3 +157,4 @@ function loadCities() {
 }
 
 loadCities();
+
