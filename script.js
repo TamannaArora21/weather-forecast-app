@@ -62,6 +62,7 @@ function showError(msg) {
 function clearError() {
   errorMsg.classList.add("hidden");
 }
+// Fetch weather data using city name input
 
 // Fetch weather data using city names
 function fetchWeatherByCity(city) {
@@ -157,4 +158,5 @@ function loadCities() {
 }
 
 loadCities();
+
 
