@@ -110,6 +110,7 @@ function displayCurrent(data) {
     alertBox.classList.add("hidden");
   }
 }
+// Process and display 5-day weather forecast
 
 function fetchForecast(lat, lon) {
   fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${API_KEY}`)
@@ -158,5 +159,6 @@ function loadCities() {
 }
 
 loadCities();
+
 
 
