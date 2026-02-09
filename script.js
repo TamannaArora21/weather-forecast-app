@@ -62,7 +62,6 @@ function showError(msg) {
 function clearError() {
   errorMsg.classList.add("hidden");
 }
-// Fetch weather data using city name input
 
 // Fetch weather data using city names
 function fetchWeatherByCity(city) {
@@ -93,6 +92,7 @@ function displayCurrent(data) {
   cityNameEl.textContent = data.name;
   conditionEl.textContent = data.weather[0].description;
   currentTempC = data.main.temp;
+// Handle temperature unit conversion and errors
 
   tempEl.textContent = currentTempC + " °C";
   toggleUnitBtn.textContent = "°F";
@@ -159,6 +159,7 @@ function loadCities() {
 }
 
 loadCities();
+
 
 
 
