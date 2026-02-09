@@ -48,8 +48,11 @@ No additional installations or frameworks are required, as Tailwind CSS is inclu
 ## API Information
 This project uses the OpenWeatherMap API to fetch weather data. The API is accessed using JavaScript `fetch()` with proper error handling.  
 The API key is used directly in the JavaScript file for academic and learning purposes only.
+This project was developed for academic purposes.
+
 
 ---
 
 ## Author
 Tamanna.
+
